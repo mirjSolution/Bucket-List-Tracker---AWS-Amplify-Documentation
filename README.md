@@ -114,6 +114,8 @@ git push -u origin main
 
 > **Note**: For the "git remote add origin git@github.com:<your-username>/bucketlistapp.git" command, you can get the URL from your GitHub repository page (or you can even copy the GitHub repository website URL).
 
+![Github](Images/github.gif)
+
 ### Install the Amplify Packages
 
 #### Install the Amplify Packages
@@ -135,6 +137,8 @@ git add .
 git commit -m "installing amplify"
 git push origin main
 ```
+
+![Install Amplify](Images/install-amplify.gif)
 
 ✅ With this, you have successfully installed the Amplify packages.
 
