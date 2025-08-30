@@ -219,18 +219,7 @@ You will set up file storage to allow users to upload images related to their bu
 
 2. Update the `resource.ts` file with the following code to configure storage for images:
 
-```typescript
-import { defineStorage } from "@aws-amplify/backend";
-
-export const storage = defineStorage({
-  name: "amplifyBucketTrackerImages",
-  access: (allow) => ({
-    "media/{entity_id}/*": [
-      allow.entity("identity").to(["read", "write", "delete"]),
-    ],
-  }),
-});
-```
+![Amplify](Images/amplify-model-2.gif)
 
 This storage configuration ensures that only the person who uploads the image can access it. The `entity_id` will be replaced with the user's identifier during file uploads, restricting access to the file.
 
