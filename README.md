@@ -287,6 +287,8 @@ Open a new terminal window, navigate to the project folder (`bucketlistapp`), an
 npm install aws-amplify @aws-amplify/ui-react
 ```
 
+![Install](Images/connect-fe-be.gif)
+
 These libraries include the client-side APIs to connect your app's frontend to the backend services and the UI components for authentication.
 
 ### UI Setup and Styling
