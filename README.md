@@ -162,6 +162,8 @@ Now, you will connect your GitHub repository to AWS Amplify, which will enable y
 
 Wait for AWS Amplify to create and deploy the app for you.
 
+![Amplify Deploy](Images/amplify-deploy.gif)
+
 ✅ And here we go!
 
 You can check the website by clicking on the URL given in the Domain section.
@@ -196,7 +198,7 @@ By default, your authentication resource is configured in the `bucketlistapp/amp
 
 In this step, you will define a schema for storing the bucket list items. Each user will be able to create, delete, and list their own bucket list entries, and Amplify will automatically handle per-user ownership of the data.
 
-1. On your local machine, navigate to the `bucketlistapp/amplify/data/resource.ts` file and update it with the following code given below.
+1. On your vscode, navigate to the `bucketlistapp/amplify/data/resource.ts` file and update it with the following code given below.
 
 2. This code will define a model for the bucket list items, ensuring that only the owner can access their data.
 
