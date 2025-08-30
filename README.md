@@ -231,18 +231,7 @@ Now, you need to link the authentication, data, and storage resources in your Am
 
 On your local machine, navigate to the `amplify/backend.ts` file and update it with the following code given below:
 
-```typescript
-import { defineBackend } from "@aws-amplify/backend";
-import { auth } from "./auth/resource";
-import { data } from "./data/resource";
-import { storage } from "./storage/resource";
-
-defineBackend({
-  auth,
-  data,
-  storage,
-});
-```
+![Amplify](Images/fin-backend.gif)
 
 This ensures that all the backend resources (auth, data, and storage) are properly configured and linked.
 
@@ -257,6 +246,8 @@ Now, you'll deploy your Amplify backend resources to a personal cloud sandbox en
 ```bash
 npx ampx sandbox
 ```
+
+![Amplify](Images/amplify-sandbox.gif)
 
 > **Troubleshooting**: After running the above command, if you get the following error: `SSMCredentialsError: UnrecognizedClientException: The security token included in the request is invalid.`
 >
